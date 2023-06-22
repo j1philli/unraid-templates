@@ -1,2 +1,2 @@
 # unraid-templates
-Maubot is for https://github.com/maubot/maubot
+Maubot is from https://github.com/maubot/maubot
