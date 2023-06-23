@@ -25,4 +25,5 @@
   <Config Name="AppData Location" Target="/data" Default="/mnt/user/appdata/maubot" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/maubot</Config>
   <Config Name="UID Permissions" Target="UID" Default="99" Mode="" Description="AppData Ownership Settings" Type="Variable" Display="advanced-hide" Required="false" Mask="false">99</Config>
   <Config Name="GID Permissions" Target="GID" Default="100" Mode="" Description="AppData Ownership Settings" Type="Variable" Display="advanced-hide" Required="false" Mask="false">100</Config>
+  <Screenshot>https://github.com/j1philli/unraid-templates/blob/main/maubot/mabot_ui_screenshot.png<Screenshot/>
 </Container>
