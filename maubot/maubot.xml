@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/140938-support-j1philli-maubot/</Support>
   <Project>https://github.com/maubot/maubot</Project>
   <Overview>A plugin-based Matrix bot system written in Python.</Overview>
   <Category>Tools: Status:Stable</Category>
@@ -17,10 +17,12 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1687413903</DateInstalled>
+  <DateInstalled>1687479272</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="WebUI Port" Target="29316" Default="" Mode="tcp" Description="Maubot WebUI Port" Type="Port" Display="always" Required="false" Mask="false">29316</Config>
-  <Config Name="AppData" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/maubot</Config>
+  <Config Name="Container Port" Target="29316" Default="29316" Mode="tcp" Description="Maubot Port" Type="Port" Display="always" Required="false" Mask="false">29316</Config>
+  <Config Name="AppData Location" Target="/data" Default="/mnt/user/appdata/maubot" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/maubot</Config>
+  <Config Name="UID Permissions" Target="UID" Default="99" Mode="" Description="AppData Ownership Settings" Type="Variable" Display="advanced-hide" Required="false" Mask="false">99</Config>
+  <Config Name="GID Permissions" Target="GID" Default="100" Mode="" Description="AppData Ownership Settings" Type="Variable" Display="advanced-hide" Required="false" Mask="false">100</Config>
 </Container>
